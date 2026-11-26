@@ -1,0 +1,546 @@
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:36:40] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Saved process scheduling chart to charts\process_scheduling_comparison.png
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:36:41] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Saved Gantt chart to charts\process_gantt_chart.png
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Saved page replacement chart to charts\page_replacement_faults.png
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:36:42] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Saved disk scheduling chart to charts\disk_seek_comparison.png
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-12 22:36:44] [INFO   ] [OS_Kernel] Saved memory allocation chart to charts\memory_allocation_stats.png
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:38:44] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:44] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Saved process scheduling chart to charts\process_scheduling_comparison.png
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:45] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Saved Gantt chart to charts\process_gantt_chart.png
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Saved page replacement chart to charts\page_replacement_faults.png
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:38:46] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Saved disk scheduling chart to charts\disk_seek_comparison.png
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Saved memory allocation chart to charts\memory_allocation_stats.png
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:38:48] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:40:53] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-12 22:40:53] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-12 22:40:53] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:40:53] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:44:53] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-12 22:44:53] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-12 22:44:53] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:44:53] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:47:16] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:48:01] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:48:15] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:48:15] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:48:15] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:48:15] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:48:28] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:46] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Saved process scheduling chart to charts\process_scheduling_comparison.png
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:48:47] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Saved Gantt chart to charts\process_gantt_chart.png
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Saved page replacement chart to charts\page_replacement_faults.png
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:48:48] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Saved disk scheduling chart to charts\disk_seek_comparison.png
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-12 22:48:50] [INFO   ] [OS_Kernel] Saved memory allocation chart to charts\memory_allocation_stats.png
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:49:11] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-12 22:49:39] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:49:39] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-12 22:49:39] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-12 22:49:39] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-12 22:49:40] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-12 22:49:40] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-12 22:49:40] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:17:37] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-26 22:21:46] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:28:33] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:28:33] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:28:33] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 22:28:33] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:29:07] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Saved process scheduling chart to charts\process_scheduling_comparison.png
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=4)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Process scheduling benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Saved Gantt chart to charts\process_gantt_chart.png
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Page replacement benchmark completed.
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Saved page replacement chart to charts\page_replacement_faults.png
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-26 22:29:58] [INFO   ] [OS_Kernel] Disk scheduling benchmark completed.
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Saved disk scheduling chart to charts\disk_seek_comparison.png
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Contiguous memory allocation benchmark completed.
+[2026-11-26 22:29:59] [INFO   ] [OS_Kernel] Saved memory allocation chart to charts\memory_allocation_stats.png
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:31:38] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 22:31:56] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-26 22:31:56] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-26 22:31:56] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:31:56] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 5 processes, Avg WT=11.40, Avg TAT=17.00
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 5 processes, Avg WT=8.20, Avg TAT=13.80
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 5 processes, Avg WT=6.60, Avg TAT=12.20
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 5 processes, Avg WT=10.60, Avg TAT=16.20
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 5 processes, Avg WT=13.00, Avg TAT=18.60
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 3/4 allocated. Total Int Frag=559 KB, Ext Frag=0 KB.
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Contiguous memory allocation [Worst Fit]: 3/4 allocated. Total Int Frag=659 KB, Ext Frag=0 KB.
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=3, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=3, Faults=7, Hits=5, Hit Ratio=41.67%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=4, Faults=8, Hits=4, Hit Ratio=33.33%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [C-SCAN RIGHT]: Total Movement=382
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:33:02] [INFO   ] [OS_Kernel] Disk Scheduling [C-LOOK RIGHT]: Total Movement=322
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 22:36:07] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-26 22:36:07] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-26 22:36:07] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 22:36:07] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Banker's Algorithm: SAFE state confirmed. Sequence: P1 -> P3 -> P0 -> P2 -> P4
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Resource request for 'P1' GRANTED: System remains SAFE.
+[2026-11-26 23:06:07] [WARNING] [OS_Kernel] Banker's Algorithm: System is in an UNSAFE state. No safe sequence exists.
+[2026-11-26 23:06:07] [WARNING] [OS_Kernel] Resource request for 'P1' DENIED: Would lead to UNSAFE state. Rolled back.
+[2026-11-26 23:06:07] [WARNING] [OS_Kernel] Deadlock detected! Cycles found: [['P1', 'P2', 'P3', 'P1']]
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Deadlock detection complete: No circular wait cycles detected.
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Contiguous memory allocation [Best Fit]: 4/4 allocated. Total Int Frag=433 KB, Ext Frag=0 KB.
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Contiguous memory allocation [First Fit]: 0/1 allocated. Total Int Frag=0 KB, Ext Frag=0 KB.
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=10, Hits=3, Hit Ratio=23.08%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=3, Faults=9, Hits=3, Hit Ratio=25.00%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [FIFO]: Frames=4, Faults=10, Hits=2, Hit Ratio=16.67%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [Optimal]: Frames=4, Faults=6, Hits=6, Hit Ratio=50.00%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Page replacement [LRU]: Frames=1, Faults=4, Hits=0, Hit Ratio=0.00%
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [SJF (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [SRTF (Preemptive)]: 3 processes, Avg WT=3.00, Avg TAT=8.33
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [Priority (Non-Preemptive)]: 3 processes, Avg WT=3.33, Avg TAT=8.67
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [Round Robin (Q=2)]: 3 processes, Avg WT=6.00, Avg TAT=11.33
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Scheduling completed [FCFS]: 1 processes, Avg WT=0.00, Avg TAT=10.00
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=640, Avg Seek=80.00
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Disk Scheduling [SSTF]: Total Movement=236, Avg Seek=29.50
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Disk Scheduling [SCAN RIGHT]: Total Movement=331
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Disk Scheduling [LOOK RIGHT]: Total Movement=299
+[2026-11-26 23:06:07] [INFO   ] [OS_Kernel] Disk Scheduling [FCFS]: Total Movement=100, Avg Seek=50.00

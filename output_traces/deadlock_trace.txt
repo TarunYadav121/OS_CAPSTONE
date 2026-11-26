@@ -1,0 +1,129 @@
+=== DEADLOCK MANAGEMENT SIMULATION TRACES ===
+Initial State Safe: True
+Safe Sequence: P1 -> P3 -> P0 -> P2 -> P4
+
+Safety Step Traces:
+[
+  {
+    "process": "P1",
+    "need": [
+      1,
+      2,
+      2
+    ],
+    "prev_work": [
+      3,
+      3,
+      2
+    ],
+    "allocation": [
+      2,
+      0,
+      0
+    ],
+    "new_work": [
+      5,
+      3,
+      2
+    ],
+    "step": 1
+  },
+  {
+    "process": "P3",
+    "need": [
+      0,
+      1,
+      1
+    ],
+    "prev_work": [
+      5,
+      3,
+      2
+    ],
+    "allocation": [
+      2,
+      1,
+      1
+    ],
+    "new_work": [
+      7,
+      4,
+      3
+    ],
+    "step": 2
+  },
+  {
+    "process": "P0",
+    "need": [
+      7,
+      4,
+      3
+    ],
+    "prev_work": [
+      7,
+      4,
+      3
+    ],
+    "allocation": [
+      0,
+      1,
+      0
+    ],
+    "new_work": [
+      7,
+      5,
+      3
+    ],
+    "step": 3
+  },
+  {
+    "process": "P2",
+    "need": [
+      6,
+      0,
+      0
+    ],
+    "prev_work": [
+      7,
+      5,
+      3
+    ],
+    "allocation": [
+      3,
+      0,
+      2
+    ],
+    "new_work": [
+      10,
+      5,
+      5
+    ],
+    "step": 4
+  },
+  {
+    "process": "P4",
+    "need": [
+      4,
+      3,
+      1
+    ],
+    "prev_work": [
+      10,
+      5,
+      5
+    ],
+    "allocation": [
+      0,
+      0,
+      2
+    ],
+    "new_work": [
+      10,
+      5,
+      7
+    ],
+    "step": 5
+  }
+]
+
+Resource Request for P1 [1, 0, 2]: Granted=True, Reason=Request granted. System maintains safe sequence: P1 -> P3 -> P0 -> P2 -> P4
